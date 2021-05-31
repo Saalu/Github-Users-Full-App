@@ -15,7 +15,7 @@ const Card = () => {
       } = githubUser;
 
 
-  return <Wrapper className='section-center'>
+  return <Wrapper >
             <header>
               <img src={avatar_url} alt={name} />
               <div>
